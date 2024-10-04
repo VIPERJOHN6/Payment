@@ -1,0 +1,86 @@
+.payment-gateway {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h2 {
+    font-weight: bold;
+  }
+  
+  .header .back {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .summary {
+    margin-top: 20px;
+  }
+  
+  .summary h3 {
+    font-weight: bold;
+  }
+  
+  .summary p {
+    margin-bottom: 10px;
+  }
+  
+  .payment-methods {
+    margin-top: 20px;
+  }
+  
+  .methods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .method {
+    margin-bottom: 10px;
+  }
+
+  .method button {
+    border-radius: 20px;
+  }
+  
+  .mthod button {
+    border-radius: 20px;
+    background-color: yellow;
+  }
+
+  .bank-transfer-details {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .bank-transfer-details h3 {
+    font-weight: bold;
+  }
+  
+  .bank-transfer-details p {
+    margin-bottom: 10px;
+  }
+  
+  .processing {
+    margin-top: 20px;
+    text-align: center;
+
+  }
+
+  .processing button{
+    height: 50px;
+    border-radius: 30px;
+    background-color: yellow;
+    font-size: 15px;
+    font-weight: 30px;
+  }
